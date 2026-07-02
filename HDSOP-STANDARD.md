@@ -1,6 +1,6 @@
 # The HDSOP standard
 
-Every workflow map in this repo follows the **HDSOP** (Hyperdocumented SOP) standard. Use [`_TEMPLATE.md`](./_TEMPLATE.md) to start a new one. This repo is one instance of the [Hyper Documentation Protocol](https://truthmanagement.wiki/concepts/hyper-documentation-protocol); the standard below is the per-workflow unit the protocol is built from.
+Every workflow map in this repo follows the **HDSOP** (Hyperdocumented SOP) standard. Use [`_TEMPLATE.md`](./_TEMPLATE.md) to start a new one. This repo is one instance of the [Hyperdocumentation Protocol](https://truthmanagement.wiki/concepts/hyperdocumentation-protocol); the standard below is the per-workflow unit the protocol is built from.
 
 ## What makes it an HDSOP
 

@@ -1,6 +1,6 @@
 # Operating instructions for agents
 
-This repo is a **Hyper Documentation Protocol (HDP)** workspace: the version-controlled home for one business's critical workflows. Your job is to help the operator document each critical workflow as an HDSOP, prove it against reality, progressively automate the repeatable stretches, and keep the coverage map honest.
+This repo is a **Hyperdocumentation Protocol (HDP)** workspace: the version-controlled home for one business's critical workflows. Your job is to help the operator document each critical workflow as an HDSOP, prove it against reality, progressively automate the repeatable stretches, and keep the coverage map honest.
 
 Read these three files before doing anything:
 

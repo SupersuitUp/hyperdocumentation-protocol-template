@@ -1,4 +1,4 @@
-# Hyper Documentation Protocol (HDP) workspace
+# Hyperdocumentation Protocol (HDP) workspace
 
 A version-controlled home for your business's critical workflows. You map each one to the **HDSOP** standard (a Hyperdocumented SOP: dual-readable by a human and an agent), prove the map against reality, then progressively automate the repeatable stretches. [`COVERAGE.md`](./COVERAGE.md) tracks how much of the business is documented and how much is automated, so the work stays focused instead of scattered.
 
@@ -10,7 +10,7 @@ A version-controlled home for your business's critical workflows. You map each o
 
 ## What this is
 
-Most AI work is scattered. People chase tools, build half-finished experiments, and cannot say at the end of the month what actually got better. The Hyper Documentation Protocol replaces that with a boring, legible loop:
+Most AI work is scattered. People chase tools, build half-finished experiments, and cannot say at the end of the month what actually got better. The Hyperdocumentation Protocol replaces that with a boring, legible loop:
 
 1. **List your critical workflows.** The processes the business actually runs on.
 2. **Document each one as an HDSOP.** A branch-explicit, metadata-rich map a human can follow and an agent can execute. See [`HDSOP-STANDARD.md`](./HDSOP-STANDARD.md).
@@ -20,7 +20,7 @@ Most AI work is scattered. People chase tools, build half-finished experiments, 
 
 You do not automate a process you have not mapped. You map it, prove it, then automate the parts that should be automated.
 
-**Canonical method:** [Hyper Documentation Protocol](https://truthmanagement.wiki/concepts/hyper-documentation-protocol) and [Documenting a Hyperdocumented SOP](https://truthmanagement.wiki/playbooks/documenting-a-hyperdocumented-sop) on truthmanagement.wiki.
+**Canonical method:** [Hyperdocumentation Protocol](https://truthmanagement.wiki/concepts/hyperdocumentation-protocol) and [Documenting a Hyperdocumented SOP](https://truthmanagement.wiki/playbooks/documenting-a-hyperdocumented-sop) on truthmanagement.wiki.
 
 ## Repo layout
 
