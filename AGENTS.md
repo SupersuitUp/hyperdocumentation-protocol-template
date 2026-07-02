@@ -4,9 +4,9 @@ This repo is a **Hyper Documentation Protocol (HDP)** workspace: the version-con
 
 Read these three files before doing anything:
 
-- [`README.md`](./README.md) — what this repo is and the loop it runs.
-- [`HDSOP-STANDARD.md`](./HDSOP-STANDARD.md) — the standard every workflow map follows.
-- [`COVERAGE.md`](./COVERAGE.md) — the scoreboard you keep in sync.
+- [`README.md`](./README.md): what this repo is and the loop it runs.
+- [`HDSOP-STANDARD.md`](./HDSOP-STANDARD.md): the standard every workflow map follows.
+- [`COVERAGE.md`](./COVERAGE.md): the scoreboard you keep in sync.
 
 ## The loop you run with the operator
 
