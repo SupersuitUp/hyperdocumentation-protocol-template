@@ -46,6 +46,30 @@ So: **more than one human in a workflow means every human is named.**
 A single-human map changes nothing and needs no `operators:` list. The rule fires on the second
 human, never the first.
 
+## Design for the human with the least tooling
+
+Naming the humans raises the next question immediately: which of them carries the structure?
+The answer is almost always the wrong one by default, because a map is usually written by the
+person holding the pipeline, and every format that is convenient to RECEIVE is a small piece of
+homework for whoever has to SEND it.
+
+That cost is invisible from the pipeline side. Asking a collaborator for notes keyed to a page
+number, or a spreadsheet, or a particular file, reads as a trivial formatting preference. On
+their side it is the difference between dashing off a reaction and sitting down to do a task,
+and the task is the one that does not happen.
+
+- **The capture medium belongs to whoever is capturing.** Screenshots into a doc, a voice memo,
+  a photo of a notepad, a text thread. Whatever they already do when they react to something is
+  the format that will actually arrive.
+- **Deriving the structure they did not supply is agent work**, and it belongs in the map as a
+  required step rather than as an automation candidate. Skipping it does not save the work. It
+  moves the work onto the person with the least tooling.
+- **The one structuring step you may ask of them is a REVIEW.** Show them what you derived and
+  ask what you misread. That is a glance. Producing it in the first place is not.
+
+The tell that this rule is being broken: a step in the map describes a format the collaborator
+would have to learn, and it exists because it was easier to parse.
+
 ## HDSOP vs skill (map vs machine)
 
 - A **skill** is a packaged, auto-invocable unit of agent capability (the SKILL.md contract): machine-discoverable and portable across runtimes.
