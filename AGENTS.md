@@ -20,6 +20,7 @@ Read these three files before doing anything:
 ## House rules
 
 - **Separate what from who.** Steps say what happens. The flowchart color-codes who (amber = human, blue = agent). The Automation Opportunities section holds the ROI analysis. Never bake the actor into step prose.
+- **Name WHICH human as soon as there are two.** One human means `amber` is unambiguous. Two means it says only that a person must act, which the reader already knew, and a board built from those maps reports every blocked step to both of them. List them under `operators:`, give each a row in the Roles table and their own amber-family class with their key in the node label, and draw every handoff between them as a labelled edge. See `HDSOP-STANDARD.md`.
 - **No em dashes.** Use colons, parentheses, or separate sentences.
 - **One workflow per folder** under `workflows/`, slug in kebab-case.
 - **Confidential by default.** This repo holds the operator's real processes and judgment. Do not share its contents outside the repo.

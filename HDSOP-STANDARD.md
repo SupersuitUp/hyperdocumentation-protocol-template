@@ -20,6 +20,32 @@ A traditional SOP is human-only prose. An HDSOP is structurally different on fiv
 
 Actor designation never clutters the step prose.
 
+## Naming WHICH human, when there is more than one
+
+A map with one human in it can say `amber` and be complete, because there is only one person
+the color could mean. **The moment a second human enters the process, `amber` stops carrying
+information.** It says a person must act, which the reader already knew, and it does not say
+which person, which is the only thing they needed. A board built from those maps reports every
+blocked step to both people, and each one reads it as waiting on the other.
+
+So: **more than one human in a workflow means every human is named.**
+
+- **`operators:` in the frontmatter lists them**, each with the short key the map refers to
+  them by. `owner:` still names the one person accountable for the workflow itself, which is a
+  different question from who performs a given step.
+- **The Roles table has one row per named human**, never a single generic `Human operator` row.
+  A generic row in a multi-human map is the same failure as a generic color.
+- **Each named human gets their own class in the flowchart**, in the amber family so the
+  human-versus-agent read survives, and distinct enough that the two are separable at a glance.
+  Put the key in the node label as well, because color alone fails for a colorblind reader and
+  fails completely in a printout.
+- **Every handoff between two humans is drawn as an edge**, labelled with what is handed over.
+  The handoffs are where a multi-human process actually loses time, and a map that hides them
+  behind a single amber blob cannot show you that.
+
+A single-human map changes nothing and needs no `operators:` list. The rule fires on the second
+human, never the first.
+
 ## HDSOP vs skill (map vs machine)
 
 - A **skill** is a packaged, auto-invocable unit of agent capability (the SKILL.md contract): machine-discoverable and portable across runtimes.
